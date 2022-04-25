@@ -1,2 +1,101 @@
 {
+  "nodes": [
+    {
+      "id": "BymyRtNS5",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "\"\""
+      },
+      "description": "Device EUI",
+      "id": "Hyxm1AFES9",
+      "label": "D_EUI",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-string"
+    },
+    {
+      "description": "Update",
+      "id": "S1-XJRt4H5",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "A lorawan-device.",
+      "id": "Hyz7k0YNS5",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-lorawan-device"
+    },
+    {
+      "id": "HymXyCFNrc",
+      "label": "Done",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "\"\""
+      },
+      "description": "Application EUI.",
+      "id": "BytWkc4B9",
+      "label": "A_EUI",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-string"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "\"\""
+      },
+      "description": "Application Key.",
+      "id": "ByqWk9NB9",
+      "label": "A_Key",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-string"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "\"2\""
+      },
+      "description": "Upload/download mode.",
+      "id": "BJsbkqNSq",
+      "label": "Mode",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-string"
+    }
+  ]
 }
