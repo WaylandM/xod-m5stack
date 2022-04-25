@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {
+      "id": "HykrdNNHq",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": -29
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "id": "HJb8OVEr5",
+      "label": "UART",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": -30
+      },
+      "type": "xod/uart/input-uart"
+    },
+    {
+      "id": "S1ZPOE4rc",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": -28
+      },
+      "type": "xod/patch-nodes/output-self"
+    }
+  ]
+}

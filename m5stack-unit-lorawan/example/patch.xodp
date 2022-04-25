@@ -1,0 +1,115 @@
+{
+  "links": [
+    {
+      "id": "ry_ZANNS9",
+      "input": {
+        "nodeId": "rJHW0ENS9",
+        "pinKey": "HJb8OVEr5"
+      },
+      "output": {
+        "nodeId": "B1ENpENrq",
+        "pinKey": "Sk450OL-X"
+      }
+    },
+    {
+      "id": "BkJG-B4rq",
+      "input": {
+        "nodeId": "BkRWbH4Bq",
+        "pinKey": "HkUnyB4Bc"
+      },
+      "output": {
+        "nodeId": "rJHW0ENS9",
+        "pinKey": "S1ZPOE4rc"
+      }
+    },
+    {
+      "id": "B1am-rNr9",
+      "input": {
+        "nodeId": "HyF7ZSVHq",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "BkRWbH4Bq",
+        "pinKey": "ByCaJB4r9"
+      }
+    },
+    {
+      "id": "r1PVWBVr5",
+      "input": {
+        "nodeId": "SJQVZHNHq",
+        "pinKey": "HJAq-A_8-"
+      },
+      "output": {
+        "nodeId": "BkRWbH4Bq",
+        "pinKey": "BJ8RyHVBc"
+      }
+    },
+    {
+      "id": "BkREbBNB5",
+      "input": {
+        "nodeId": "HJiNZB4S9",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "SJQVZHNHq",
+        "pinKey": "r1yhZRd8W"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "B1ENpENrq",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/uart/uart-1"
+    },
+    {
+      "id": "rJHW0ENS9",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 1
+      },
+      "type": "@/lorawan-device"
+    },
+    {
+      "id": "BkRWbH4Bq",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 2
+      },
+      "type": "@/device-connected"
+    },
+    {
+      "id": "HyF7ZSVHq",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 3
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "SJQVZHNHq",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 3
+      },
+      "type": "xod/core/count"
+    },
+    {
+      "id": "HJiNZB4S9",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 4
+      },
+      "type": "xod/debug/watch"
+    }
+  ]
+}
