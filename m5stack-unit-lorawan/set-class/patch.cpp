@@ -5,7 +5,7 @@ node {
         if (!isInputDirty<input_UPD>(ctx))
             return;
         auto LoRaWAN = getValue<input_DEV>(ctx);
-        auto xString = getValue<input_RxWin>(ctx);
+        auto xString = getValue<input_Class>(ctx);
         
         int N=length(xString)+1;
         char cString[N];
@@ -13,7 +13,7 @@ node {
             cString[i]=0;
         dump(xString, cString);
 
-        LoRaWAN->setRxWindow(cString);
+        LoRaWAN->setClass(cString);
 
         emitValue<output_Done>(ctx, 1);
     }

@@ -2,10 +2,12 @@
 node {
 
     void evaluate(Context ctx) {
+        if (!isInputDirty<input_UPD>(ctx))
+            return;
+        auto LoRaWAN = getValue<input_DEV>(ctx);
 
-        LoRaWAN->writeCMD("AT+CWORKMODE=2\r\n");
-        //LoRaWAN->setRxWindow("869525000");
-        LoRaWAN->startJoin
+        LoRaWAN->startJoin();
 
+        emitValue<output_Done>(ctx, 1);
     }
 }

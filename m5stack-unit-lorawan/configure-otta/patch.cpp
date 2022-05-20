@@ -11,29 +11,25 @@ node {
         auto xAppKey = getValue<input_A_Key>(ctx);
         auto xMode = getValue<input_Mode>(ctx);
 
-        N=length(xDevEUI);
-        N +=1;
+        int N=length(xDevEUI)+1;
         char cDevEUI[N];
         for(int i=0;i<N;i++)
             cDevEUI[i]=0;
         dump(xDevEUI, cDevEUI);
 
-        N=length(xAppEUI);
-        N +=1;
+        N=length(xAppEUI)+1;
         char cAppEUI[N];
         for(int i=0;i<N;i++)
             cAppEUI[i]=0;
         dump(xAppEUI, cAppEUI);
 
-        N=length(xAppKey);
-        N +=1;
+        N=length(xAppKey)+1;
         char cAppKey[N];
         for(int i=0;i<N;i++)
             cAppKey[i]=0;
         dump(xAppKey, cAppKey);
 
-        N=length(xMode);
-        N +=1;
+        N=length(xMode)+1;
         char cMode[N];
         for(int i=0;i<N;i++)
             cMode[i]=0;

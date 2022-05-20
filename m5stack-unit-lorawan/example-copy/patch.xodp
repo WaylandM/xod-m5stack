@@ -1,0 +1,225 @@
+{
+  "links": [
+    {
+      "id": "ry_ZANNS9",
+      "input": {
+        "nodeId": "rJHW0ENS9",
+        "pinKey": "HJb8OVEr5"
+      },
+      "output": {
+        "nodeId": "B1ENpENrq",
+        "pinKey": "Sk450OL-X"
+      }
+    },
+    {
+      "id": "BkJG-B4rq",
+      "input": {
+        "nodeId": "BkRWbH4Bq",
+        "pinKey": "HkUnyB4Bc"
+      },
+      "output": {
+        "nodeId": "rJHW0ENS9",
+        "pinKey": "S1ZPOE4rc"
+      }
+    },
+    {
+      "id": "B1am-rNr9",
+      "input": {
+        "nodeId": "HyF7ZSVHq",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "BkRWbH4Bq",
+        "pinKey": "ByCaJB4r9"
+      }
+    },
+    {
+      "id": "r1-5oInU9",
+      "input": {
+        "nodeId": "ryxEiU3Lq",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "rJHW0ENS9",
+        "pinKey": "S1ZPOE4rc"
+      }
+    },
+    {
+      "id": "HJLxWmHPq",
+      "input": {
+        "nodeId": "B1WlWmHw9",
+        "pinKey": "S1OlUAuBD1-"
+      },
+      "output": {
+        "nodeId": "BkRWbH4Bq",
+        "pinKey": "ByCaJB4r9"
+      }
+    },
+    {
+      "id": "By9-W7SPq",
+      "input": {
+        "nodeId": "HJVbZQHvc",
+        "pinKey": "ryv7IRdSP1b"
+      },
+      "output": {
+        "nodeId": "B1ENpENrq",
+        "pinKey": "BkmeFD8OQ"
+      }
+    },
+    {
+      "id": "SkhW-XSv9",
+      "input": {
+        "nodeId": "BkRWbH4Bq",
+        "pinKey": "BJUexSVB5"
+      },
+      "output": {
+        "nodeId": "HJVbZQHvc",
+        "pinKey": "ByHmL0uHPk-"
+      }
+    },
+    {
+      "id": "rk2fbmHwc",
+      "input": {
+        "nodeId": "SJbMb7rvq",
+        "pinKey": "BJI7P8t9Z"
+      },
+      "output": {
+        "nodeId": "B1WlWmHw9",
+        "pinKey": "SyM2ATB-b"
+      }
+    },
+    {
+      "id": "HJ6GWQBwq",
+      "input": {
+        "nodeId": "HJVbZQHvc",
+        "pinKey": "ByU7LRuSPkW"
+      },
+      "output": {
+        "nodeId": "SJbMb7rvq",
+        "pinKey": "HJhXDIY9-"
+      }
+    },
+    {
+      "id": "BkxVbmHv5",
+      "input": {
+        "nodeId": "B1WlWmHw9",
+        "pinKey": "HkDgIRdrv1W"
+      },
+      "output": {
+        "nodeId": "BkRWbH4Bq",
+        "pinKey": "BJ8RyHVBc"
+      }
+    },
+    {
+      "id": "S1ZpwlBrDq",
+      "input": {
+        "nodeId": "Sk6DeBBvq",
+        "pinKey": "HJfXhXW3I9"
+      },
+      "output": {
+        "nodeId": "B1gTwlBHDq",
+        "pinKey": "__out__"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "B1ENpENrq",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/uart/uart-1"
+    },
+    {
+      "id": "rJHW0ENS9",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 1
+      },
+      "type": "@/lorawan-device"
+    },
+    {
+      "boundLiterals": {
+        "BJUexSVB5": "On Boot"
+      },
+      "id": "BkRWbH4Bq",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 2
+      },
+      "type": "@/device-connected"
+    },
+    {
+      "id": "HyF7ZSVHq",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 3
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "ryxEiU3Lq",
+      "label": "LoRa",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/to-bus"
+    },
+    {
+      "id": "B1WlWmHw9",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 3
+      },
+      "type": "xod/core/branch"
+    },
+    {
+      "id": "HJVbZQHvc",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 1
+      },
+      "type": "xod/core/any"
+    },
+    {
+      "id": "SJbMb7rvq",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 2
+      },
+      "type": "xod/core/defer"
+    },
+    {
+      "boundLiterals": {
+        "rJZQhXb3U9": "Continuously"
+      },
+      "id": "Sk6DeBBvq",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 1
+      },
+      "type": "@/send-message"
+    },
+    {
+      "id": "B1gTwlBHDq",
+      "label": "LoRa",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/from-bus"
+    }
+  ]
+}

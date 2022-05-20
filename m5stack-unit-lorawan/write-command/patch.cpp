@@ -7,8 +7,7 @@ node {
         auto LoRaWAN = getValue<input_DEV>(ctx);
         auto xString = getValue<input_CMD>(ctx);
         
-        N=length(xString);
-        N +=1;
+        int N=length(xString)+1;
         char cString[N];
         for(int i=0;i<N;i++)
             cString[i]=0;

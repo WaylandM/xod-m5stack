@@ -1,13 +1,46 @@
 {
+  "description": "Join network.",
   "nodes": [
     {
-      "id": "HJmnFHNr9",
+      "id": "By-8Kmrv9",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Update",
+      "id": "S1bWLFmSv5",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "A lorawan-device.",
+      "id": "ryfbIY7Bv9",
+      "label": "DEV",
       "position": {
         "units": "slots",
         "x": 2,
         "y": 1
       },
-      "type": "xod/patch-nodes/not-implemented-in-xod"
+      "type": "@/input-lorawan-device"
+    },
+    {
+      "id": "HJQZ8YXSvc",
+      "label": "Done",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/output-pulse"
     }
   ]
 }
