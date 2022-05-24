@@ -8,7 +8,6 @@ node {
         auto xString = getValue<input_MSG>(ctx);
         uint8_t cfm = getValue<input_CFM>(ctx);
         uint8_t trials = getValue<input_Trials>(ctx);
-        //size_t len = getValue<input_Length>(ctx);
         
         int N=length(xString)+1;
         char cString[N];

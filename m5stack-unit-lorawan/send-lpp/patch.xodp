@@ -1,2 +1,84 @@
 {
+  "nodes": [
+    {
+      "id": "Sy4bNXdD9",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Update",
+      "id": "SkZV-VXuDc",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "A lorawan-device.",
+      "id": "SkGN-VQuwc",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-lorawan-device"
+    },
+    {
+      "id": "HJXNZVQ_P9",
+      "label": "Done",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "True"
+      },
+      "description": "Confirm",
+      "id": "B1NVZ4mdP9",
+      "label": "CFM",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "15"
+      },
+      "description": "Number of trials.",
+      "id": "SJrVZNQuwc",
+      "label": "Trials",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "A Low Power Payload.",
+      "id": "S1WQNmdvq",
+      "label": "LPP",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "wayland/cayenne-lpp/input-lpp"
+    }
+  ]
 }
