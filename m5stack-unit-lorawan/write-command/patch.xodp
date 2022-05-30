@@ -43,6 +43,7 @@
       "type": "@/input-lorawan-device"
     },
     {
+      "description": "Pulse on write.",
       "id": "SkQD7rVSc",
       "label": "Done",
       "position": {

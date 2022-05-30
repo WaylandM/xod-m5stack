@@ -1,4 +1,5 @@
 {
+  "description": "Send low power payload (LPP). See: https://xod.io/libs/wayland/cayenne-lpp/",
   "nodes": [
     {
       "id": "Sy4bNXdD9",

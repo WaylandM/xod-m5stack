@@ -1,4 +1,5 @@
 {
+  "description": "Set receive (Rx) window parameter.",
   "nodes": [
     {
       "id": "S1buawVHq",
@@ -46,6 +47,7 @@
       "type": "@/input-lorawan-device"
     },
     {
+      "description": "Pulse on completion.",
       "id": "HkXb_TvVS9",
       "label": "Done",
       "position": {

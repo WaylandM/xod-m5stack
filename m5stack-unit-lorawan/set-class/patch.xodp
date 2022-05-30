@@ -1,5 +1,5 @@
 {
-  "description": "Set class.",
+  "description": "Set class. See: https://www.thethingsnetwork.org/docs/lorawan/classes/",
   "nodes": [
     {
       "id": "Hk28wXSPq",
@@ -47,6 +47,7 @@
       "type": "@/input-lorawan-device"
     },
     {
+      "description": "Pulse on completion.",
       "id": "r1mhIP7BD5",
       "label": "Done",
       "position": {

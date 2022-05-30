@@ -1,5 +1,5 @@
 {
-  "description": "Join network.",
+  "description": "Join network. Initiate over the air authentication (OTAA).",
   "nodes": [
     {
       "id": "By-8Kmrv9",
@@ -16,7 +16,7 @@
       "label": "UPD",
       "position": {
         "units": "slots",
-        "x": 4,
+        "x": 3,
         "y": 1
       },
       "type": "xod/patch-nodes/input-pulse"
@@ -33,6 +33,7 @@
       "type": "@/input-lorawan-device"
     },
     {
+      "description": "Pulse on completion.",
       "id": "HJQZ8YXSvc",
       "label": "Done",
       "position": {

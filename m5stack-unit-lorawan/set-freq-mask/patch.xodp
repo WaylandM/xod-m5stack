@@ -1,5 +1,5 @@
 {
-  "description": "Set frequency mask.",
+  "description": "Set frequency band mask. For example: 0-7 channel has mask of 0001, 8-15 channel has mask of 0002, and so on.",
   "nodes": [
     {
       "id": "H1LAzaGwc",

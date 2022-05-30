@@ -1,0 +1,60 @@
+{
+  "links": [
+    {
+      "id": "H1RI9DzO9",
+      "input": {
+        "nodeId": "HJXBtPMd5",
+        "pinKey": "rysNHvMdc"
+      },
+      "output": {
+        "nodeId": "BJgfqwz_5",
+        "pinKey": "Sk450OL-X"
+      }
+    },
+    {
+      "id": "S1fDcvGOq",
+      "input": {
+        "nodeId": "HJXBtPMd5",
+        "pinKey": "r1OM8DMu5"
+      },
+      "output": {
+        "nodeId": "BJgfqwz_5",
+        "pinKey": "BkmeFD8OQ"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "boundLiterals": {
+        "B1burwfd9": "\"70B3D57ED0050EFC\"",
+        "Syt_BDGOq": "\"0000000000000000\"",
+        "rkDet_HPfu5": "\"FE9FEA871DF647F0420995B1CA58C3DA\""
+      },
+      "id": "HJXBtPMd5",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 2
+      },
+      "type": "@/lorawan868-setup"
+    },
+    {
+      "id": "BJgfqwz_5",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1
+      },
+      "type": "xod/uart/uart-1"
+    },
+    {
+      "id": "B138Nuzu5",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 5
+      },
+      "type": "@/send-lpp"
+    }
+  ]
+}

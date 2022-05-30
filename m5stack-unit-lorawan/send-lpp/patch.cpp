@@ -1,8 +1,8 @@
+#pragma XOD evaluate_on_pin disable
+#pragma XOD evaluate_on_pin enable input_UPD
 
 node {
 
-    
-    
     void evaluate(Context ctx) {
         if (!isInputDirty<input_UPD>(ctx))
             return;
@@ -10,13 +10,11 @@ node {
         auto lpp = getValue<input_LPP>(ctx);
         uint8_t cfm = getValue<input_CFM>(ctx);
         uint8_t trials = getValue<input_Trials>(ctx);
-        //size_t len = getValue<input_Length>(ctx);
 
         lpp->reset();
         lpp->addGPS(1, 42.3519, -87.9094, 10);
 
         int N=lpp->getSize();
-        
         
         uint8_t* buff = lpp->getBuffer();
 
@@ -26,7 +24,6 @@ node {
             payload += "0123456789ABCDEF"[*(buff+i) / 16];
             payload += "0123456789ABCDEF"[*(buff+i) % 16];
         }        
-        
 
         LoRaWAN->sendMsg(cfm,
                         trials,

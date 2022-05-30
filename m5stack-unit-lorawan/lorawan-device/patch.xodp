@@ -10,6 +10,7 @@
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
+      "description": "A universal asynchronous receiver-transmitter (UART).",
       "id": "HJb8OVEr5",
       "label": "UART",
       "position": {
@@ -20,6 +21,7 @@
       "type": "xod/uart/input-uart"
     },
     {
+      "description": "A lorawan-device.",
       "id": "S1ZPOE4rc",
       "label": "DEV",
       "position": {

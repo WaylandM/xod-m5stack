@@ -46,6 +46,7 @@
       "type": "@/input-lorawan-device"
     },
     {
+      "description": "Pulse on completion.",
       "id": "S1Q72XZ2I9",
       "label": "Done",
       "position": {

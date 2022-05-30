@@ -1,4 +1,5 @@
 {
+  "description": "Check if LoRaWAN device connected.",
   "nodes": [
     {
       "id": "SkhjyBEBq",
@@ -21,6 +22,7 @@
       "type": "@/input-lorawan-device"
     },
     {
+      "description": "Output true if device connected.",
       "id": "ByCaJB4r9",
       "label": "Conn",
       "position": {
@@ -31,6 +33,7 @@
       "type": "xod/patch-nodes/output-boolean"
     },
     {
+      "description": "Pulse on completion.",
       "id": "BJ8RyHVBc",
       "label": "Done",
       "position": {

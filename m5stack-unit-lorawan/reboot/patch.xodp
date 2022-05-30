@@ -82,7 +82,7 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
-      "description": "Pulse on write.",
+      "description": "Pulse on completion.",
       "id": "HyfIF_HVSq",
       "label": "Done",
       "position": {

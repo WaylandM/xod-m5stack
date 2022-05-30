@@ -1,5 +1,5 @@
 {
-  "description": "Save MAC configuration.",
+  "description": "Save MAC configuration parameters into EEPROM/FLASH.",
   "links": [
     {
       "id": "rk444dSNSq",
@@ -82,7 +82,7 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
-      "description": "Pulse on write.",
+      "description": "Pulse on completion.",
       "id": "ryzEVdrVSc",
       "label": "Done",
       "position": {

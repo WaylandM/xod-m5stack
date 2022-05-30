@@ -1,4 +1,5 @@
 {
+  "description": "Configure Over The Air Authentication (OTAA).",
   "nodes": [
     {
       "id": "BymyRtNS5",
@@ -29,7 +30,7 @@
       "label": "UPD",
       "position": {
         "units": "slots",
-        "x": 6,
+        "x": 5,
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
@@ -87,7 +88,7 @@
       "boundLiterals": {
         "__out__": "\"2\""
       },
-      "description": "Upload/download mode.",
+      "description": "Upload/download same/different frequency. 1 = same frequency mode; 2 = different frequency mode.",
       "id": "BJsbkqNSq",
       "label": "Mode",
       "position": {
