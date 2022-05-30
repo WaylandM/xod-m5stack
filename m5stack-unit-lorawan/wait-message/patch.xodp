@@ -2,7 +2,7 @@
   "nodes": [
     {
       "description": "Receive message.",
-      "id": "ByrDULGOq",
+      "id": "BJJ3J3Gdq",
       "position": {
         "units": "slots",
         "x": 0,
@@ -12,7 +12,7 @@
     },
     {
       "description": "Message.",
-      "id": "BJAPI8zOc",
+      "id": "r1eyn13M_9",
       "label": "Msg",
       "position": {
         "units": "slots",
@@ -23,7 +23,7 @@
     },
     {
       "description": "Pulse on read.",
-      "id": "rJpdILM_9",
+      "id": "H1WJ2knGdc",
       "label": "Done",
       "position": {
         "units": "slots",
@@ -34,18 +34,18 @@
     },
     {
       "description": "Update.",
-      "id": "Bko9IIMO5",
+      "id": "SyfJ3J2M_q",
       "label": "UPD",
       "position": {
         "units": "slots",
-        "x": 2,
+        "x": 3,
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
     },
     {
       "description": "A lorawan-device.",
-      "id": "SyYoL8MO5",
+      "id": "SJXk31hfOq",
       "label": "DEV",
       "position": {
         "units": "slots",
@@ -59,11 +59,25 @@
         "__out__": "16"
       },
       "description": "Maximum size of string (number of bytes). Must be a constant value. Any changes during program execution will be ignored.",
-      "id": "rkMhYIfd5",
+      "id": "HyEkh1nz_q",
       "label": "Size",
       "position": {
         "units": "slots",
         "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "2000"
+      },
+      "description": "Wait time in milliseconds.",
+      "id": "HkzpknG_9",
+      "label": "ms",
+      "position": {
+        "units": "slots",
+        "x": 2,
         "y": 0
       },
       "type": "xod/patch-nodes/input-number"

@@ -34,39 +34,6 @@
       }
     },
     {
-      "id": "ryi9oPz_q",
-      "input": {
-        "nodeId": "H1_qjvzOq",
-        "pinKey": "Bko9IIMO5"
-      },
-      "output": {
-        "nodeId": "B1KOjvMu9",
-        "pinKey": "S1Q72XZ2I9"
-      }
-    },
-    {
-      "id": "By6qivfOq",
-      "input": {
-        "nodeId": "H1_qjvzOq",
-        "pinKey": "SyYoL8MO5"
-      },
-      "output": {
-        "nodeId": "Hkj1WjPzu5",
-        "pinKey": "HJaivvMOc"
-      }
-    },
-    {
-      "id": "r1YioDz_c",
-      "input": {
-        "nodeId": "ryXjiPf_q",
-        "pinKey": "HkXK-dGob"
-      },
-      "output": {
-        "nodeId": "H1_qjvzOq",
-        "pinKey": "BJAPI8zOc"
-      }
-    },
-    {
       "id": "H19XMuGu9",
       "input": {
         "nodeId": "B1KOjvMu9",
@@ -86,6 +53,39 @@
       "output": {
         "nodeId": "HydhWKGdq",
         "pinKey": "H1wh06BEV"
+      }
+    },
+    {
+      "id": "S1p_l3GO9",
+      "input": {
+        "nodeId": "Hkjdl3zd9",
+        "pinKey": "SJXk31hfOq"
+      },
+      "output": {
+        "nodeId": "Hkj1WjPzu5",
+        "pinKey": "HJaivvMOc"
+      }
+    },
+    {
+      "id": "BkNKgnG_9",
+      "input": {
+        "nodeId": "Hkjdl3zd9",
+        "pinKey": "SyfJ3J2M_q"
+      },
+      "output": {
+        "nodeId": "B1KOjvMu9",
+        "pinKey": "S1Q72XZ2I9"
+      }
+    },
+    {
+      "id": "HJxcghf_q",
+      "input": {
+        "nodeId": "S1KYgnfuq",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "Hkjdl3zd9",
+        "pinKey": "r1eyn13M_9"
       }
     }
   ],
@@ -121,32 +121,9 @@
       "position": {
         "units": "slots",
         "x": 3,
-        "y": 4
+        "y": 3
       },
       "type": "@/send-message"
-    },
-    {
-      "id": "H1_qjvzOq",
-      "position": {
-        "units": "slots",
-        "x": 2,
-        "y": 5
-      },
-      "type": "@/receive-message"
-    },
-    {
-      "id": "ryXjiPf_q",
-      "position": {
-        "units": "slots",
-        "x": 2,
-        "y": 6
-      },
-      "size": {
-        "height": 1,
-        "units": "slots",
-        "width": 3
-      },
-      "type": "xod/debug/watch"
     },
     {
       "boundLiterals": {
@@ -156,7 +133,7 @@
       "position": {
         "units": "slots",
         "x": 7,
-        "y": 3
+        "y": 2
       },
       "type": "xod/core/clock"
     },
@@ -168,9 +145,35 @@
       "position": {
         "units": "slots",
         "x": 6,
-        "y": 3
+        "y": 2
       },
       "type": "xod/debug/tweak-string-16"
+    },
+    {
+      "boundLiterals": {
+        "HyEkh1nz_q": "24"
+      },
+      "id": "Hkjdl3zd9",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 4
+      },
+      "type": "@/wait-message"
+    },
+    {
+      "id": "S1KYgnfuq",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 5
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 4
+      },
+      "type": "xod/debug/watch"
     }
   ]
 }

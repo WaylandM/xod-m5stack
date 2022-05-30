@@ -11,9 +11,6 @@ node {
         uint8_t cfm = getValue<input_CFM>(ctx);
         uint8_t trials = getValue<input_Trials>(ctx);
 
-        lpp->reset();
-        lpp->addGPS(1, 42.3519, -87.9094, 10);
-
         int N=lpp->getSize();
         
         uint8_t* buff = lpp->getBuffer();
