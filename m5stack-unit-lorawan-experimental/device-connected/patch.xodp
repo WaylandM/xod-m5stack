@@ -1,0 +1,61 @@
+{
+  "description": "Check if LoRaWAN device connected.",
+  "nodes": [
+    {
+      "id": "SkhjyBEBq",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "A lorawan-device.",
+      "id": "HkUnyB4Bc",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "@/input-lorawan-device"
+    },
+    {
+      "description": "Output true if device connected.",
+      "id": "ByCaJB4r9",
+      "label": "Conn",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-boolean"
+    },
+    {
+      "description": "Pulse on completion.",
+      "id": "BJ8RyHVBc",
+      "label": "Done",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "Continuously"
+      },
+      "description": "Update.",
+      "id": "BJUexSVB5",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    }
+  ]
+}

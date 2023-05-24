@@ -1,8 +1,7 @@
 {
-  "description": "Send low power payload (LPP). See: https://xod.io/libs/wayland/cayenne-lpp/",
   "nodes": [
     {
-      "id": "Sy4bNXdD9",
+      "id": "rJmnmZhUc",
       "position": {
         "units": "slots",
         "x": 0,
@@ -11,8 +10,22 @@
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
+      "boundLiterals": {
+        "__out__": "\"4d35535441434b\""
+      },
+      "description": "Command",
+      "id": "ryeQ37WnLc",
+      "label": "MSG",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-string"
+    },
+    {
       "description": "Update",
-      "id": "SkZV-VXuDc",
+      "id": "rJZQhXb3U9",
       "label": "UPD",
       "position": {
         "units": "slots",
@@ -23,7 +36,7 @@
     },
     {
       "description": "A lorawan-device.",
-      "id": "SkGN-VQuwc",
+      "id": "HJfXhXW3I9",
       "label": "DEV",
       "position": {
         "units": "slots",
@@ -33,7 +46,8 @@
       "type": "@/input-lorawan-device"
     },
     {
-      "id": "HJXNZVQ_P9",
+      "description": "Pulse on completion.",
+      "id": "S1Q72XZ2I9",
       "label": "Done",
       "position": {
         "units": "slots",
@@ -44,10 +58,10 @@
     },
     {
       "boundLiterals": {
-        "__out__": "False"
+        "__out__": "True"
       },
       "description": "Confirm",
-      "id": "B1NVZ4mdP9",
+      "id": "HJI-db385",
       "label": "CFM",
       "position": {
         "units": "slots",
@@ -61,7 +75,7 @@
         "__out__": "15"
       },
       "description": "Number of trials.",
-      "id": "SJrVZNQuwc",
+      "id": "H1AC2HnL5",
       "label": "Trials",
       "position": {
         "units": "slots",
@@ -69,17 +83,6 @@
         "y": 0
       },
       "type": "xod/patch-nodes/input-number"
-    },
-    {
-      "description": "A Low Power Payload.",
-      "id": "S1WQNmdvq",
-      "label": "LPP",
-      "position": {
-        "units": "slots",
-        "x": 3,
-        "y": 0
-      },
-      "type": "wayland/cayenne-lpp/input-lpp"
     }
   ]
 }

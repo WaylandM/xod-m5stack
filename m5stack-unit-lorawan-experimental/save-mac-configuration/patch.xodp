@@ -1,0 +1,113 @@
+{
+  "description": "Save MAC configuration parameters into EEPROM/FLASH.",
+  "links": [
+    {
+      "id": "rk444dSNSq",
+      "input": {
+        "nodeId": "BJ4EOBNH5",
+        "pinKey": "B1pBQr4r5"
+      },
+      "output": {
+        "nodeId": "SyeEV_HNr9",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "HyBVNuSNB5",
+      "input": {
+        "nodeId": "BJ4EOBNH5",
+        "pinKey": "SknNQrES5"
+      },
+      "output": {
+        "nodeId": "rkbVN_rEB5",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "BkLENuHVS5",
+      "input": {
+        "nodeId": "ryzEVdrVSc",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "BJ4EOBNH5",
+        "pinKey": "SkQD7rVSc"
+      }
+    },
+    {
+      "id": "SJvV4_rNH9",
+      "input": {
+        "nodeId": "BJ4EOBNH5",
+        "pinKey": "B12mmr4rq"
+      },
+      "output": {
+        "nodeId": "rymENdHNHq",
+        "pinKey": "B1x2RV3eZ"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "boundLiterals": {
+        "B12mmr4rq": "\"\""
+      },
+      "id": "BJ4EOBNH5",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "@/write-command"
+    },
+    {
+      "description": "A lorawan-device.",
+      "id": "SyeEV_HNr9",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1
+      },
+      "type": "@/input-lorawan-device"
+    },
+    {
+      "description": "Update",
+      "id": "rkbVN_rEB5",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Pulse on completion.",
+      "id": "ryzEVdrVSc",
+      "label": "Done",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "boundLiterals": {
+        "B1x2RV3eZ": "\"AT+CSAVE\\r\\n\""
+      },
+      "id": "rymENdHNHq",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 5
+      },
+      "type": "xod/core/constant-string"
+    }
+  ]
+}

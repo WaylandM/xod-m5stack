@@ -1,0 +1,35 @@
+{
+  "nodes": [
+    {
+      "id": "HykrdNNHq",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": -29
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "A universal asynchronous receiver-transmitter (UART).",
+      "id": "HJb8OVEr5",
+      "label": "UART",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": -30
+      },
+      "type": "xod/uart/input-uart"
+    },
+    {
+      "description": "A lorawan-device.",
+      "id": "S1ZPOE4rc",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": -28
+      },
+      "type": "xod/patch-nodes/output-self"
+    }
+  ]
+}

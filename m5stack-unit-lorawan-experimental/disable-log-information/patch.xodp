@@ -1,0 +1,113 @@
+{
+  "description": "Disable logging.",
+  "links": [
+    {
+      "id": "BJVHFPSNSq",
+      "input": {
+        "nodeId": "SJHFPrEHc",
+        "pinKey": "B1pBQr4r5"
+      },
+      "output": {
+        "nodeId": "B1eBYvHNHq",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "H1HHKDBNHq",
+      "input": {
+        "nodeId": "SJHFPrEHc",
+        "pinKey": "SknNQrES5"
+      },
+      "output": {
+        "nodeId": "S1brYvSEH5",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "HyLSFwHEHq",
+      "input": {
+        "nodeId": "rJMSKvHEBc",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "SJHFPrEHc",
+        "pinKey": "SkQD7rVSc"
+      }
+    },
+    {
+      "id": "BkDHFwS4H5",
+      "input": {
+        "nodeId": "SJHFPrEHc",
+        "pinKey": "B12mmr4rq"
+      },
+      "output": {
+        "nodeId": "HkQrtvH4Hc",
+        "pinKey": "B1x2RV3eZ"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "boundLiterals": {
+        "B12mmr4rq": "\"\""
+      },
+      "id": "SJHFPrEHc",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "@/write-command"
+    },
+    {
+      "description": "A lorawan-device.",
+      "id": "B1eBYvHNHq",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1
+      },
+      "type": "@/input-lorawan-device"
+    },
+    {
+      "description": "Update",
+      "id": "S1brYvSEH5",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Pulse on write.",
+      "id": "rJMSKvHEBc",
+      "label": "Done",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "boundLiterals": {
+        "B1x2RV3eZ": "\"AT+ILOGLVL=0\\r\\n\""
+      },
+      "id": "HkQrtvH4Hc",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 5
+      },
+      "type": "xod/core/constant-string"
+    }
+  ]
+}

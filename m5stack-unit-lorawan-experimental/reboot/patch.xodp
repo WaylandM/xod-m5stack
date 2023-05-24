@@ -1,0 +1,113 @@
+{
+  "description": "Reboot lorawan-device.",
+  "links": [
+    {
+      "id": "BJ4UK_SESc",
+      "input": {
+        "nodeId": "ryIt_BNB5",
+        "pinKey": "B1pBQr4r5"
+      },
+      "output": {
+        "nodeId": "B1gUt_S4S5",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "BJHLtOSNrq",
+      "input": {
+        "nodeId": "ryIt_BNB5",
+        "pinKey": "SknNQrES5"
+      },
+      "output": {
+        "nodeId": "S1bLFuBESc",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "rJ88KdrNr5",
+      "input": {
+        "nodeId": "HyfIF_HVSq",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "ryIt_BNB5",
+        "pinKey": "SkQD7rVSc"
+      }
+    },
+    {
+      "id": "HkD8KuSEB9",
+      "input": {
+        "nodeId": "ryIt_BNB5",
+        "pinKey": "B12mmr4rq"
+      },
+      "output": {
+        "nodeId": "SkQLKOBEHq",
+        "pinKey": "B1x2RV3eZ"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "boundLiterals": {
+        "B12mmr4rq": "\"\""
+      },
+      "id": "ryIt_BNB5",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "@/write-command"
+    },
+    {
+      "description": "A lorawan-device.",
+      "id": "B1gUt_S4S5",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "@/input-lorawan-device"
+    },
+    {
+      "description": "Update",
+      "id": "S1bLFuBESc",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Pulse on completion.",
+      "id": "HyfIF_HVSq",
+      "label": "Done",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "boundLiterals": {
+        "B1x2RV3eZ": "\"AT+IREBOOT=0\\r\\n\""
+      },
+      "id": "SkQLKOBEHq",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 5
+      },
+      "type": "xod/core/constant-string"
+    }
+  ]
+}
