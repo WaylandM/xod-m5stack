@@ -1,4 +1,5 @@
 {
+  "description": "Demonstration of sending a message. Run in debug mode to change the message at runtime. ",
   "links": [
     {
       "id": "SkakWowfOq",
@@ -54,39 +55,6 @@
         "nodeId": "HydhWKGdq",
         "pinKey": "H1wh06BEV"
       }
-    },
-    {
-      "id": "S1p_l3GO9",
-      "input": {
-        "nodeId": "Hkjdl3zd9",
-        "pinKey": "SJXk31hfOq"
-      },
-      "output": {
-        "nodeId": "Hkj1WjPzu5",
-        "pinKey": "HJaivvMOc"
-      }
-    },
-    {
-      "id": "BkNKgnG_9",
-      "input": {
-        "nodeId": "Hkjdl3zd9",
-        "pinKey": "SyfJ3J2M_q"
-      },
-      "output": {
-        "nodeId": "B1KOjvMu9",
-        "pinKey": "S1Q72XZ2I9"
-      }
-    },
-    {
-      "id": "HJxcghf_q",
-      "input": {
-        "nodeId": "S1KYgnfuq",
-        "pinKey": "HkXK-dGob"
-      },
-      "output": {
-        "nodeId": "Hkjdl3zd9",
-        "pinKey": "r1eyn13M_9"
-      }
     }
   ],
   "nodes": [
@@ -120,7 +88,7 @@
       "id": "B1KOjvMu9",
       "position": {
         "units": "slots",
-        "x": 3,
+        "x": 2,
         "y": 3
       },
       "type": "@/send-message"
@@ -132,7 +100,7 @@
       "id": "S1S7zuG_q",
       "position": {
         "units": "slots",
-        "x": 7,
+        "x": 6,
         "y": 2
       },
       "type": "xod/core/clock"
@@ -144,36 +112,10 @@
       "id": "HydhWKGdq",
       "position": {
         "units": "slots",
-        "x": 6,
+        "x": 5,
         "y": 2
       },
       "type": "xod/debug/tweak-string-16"
-    },
-    {
-      "boundLiterals": {
-        "HyEkh1nz_q": "24"
-      },
-      "id": "Hkjdl3zd9",
-      "position": {
-        "units": "slots",
-        "x": 2,
-        "y": 4
-      },
-      "type": "@/wait-message"
-    },
-    {
-      "id": "S1KYgnfuq",
-      "position": {
-        "units": "slots",
-        "x": 2,
-        "y": 5
-      },
-      "size": {
-        "height": 1,
-        "units": "slots",
-        "width": 4
-      },
-      "type": "xod/debug/watch"
     }
   ]
 }

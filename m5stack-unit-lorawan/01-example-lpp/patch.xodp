@@ -1,4 +1,91 @@
 {
+  "comments": [
+    {
+      "content": "Double-click to edit comment",
+      "id": "HJ4HxZ3Bh",
+      "position": {
+        "units": "slots",
+        "x": 11,
+        "y": 1
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 4
+      }
+    },
+    {
+      "content": "Double-click to edit comment",
+      "id": "rJiBlZ3r3",
+      "position": {
+        "units": "slots",
+        "x": 23,
+        "y": 1
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 4
+      }
+    },
+    {
+      "content": "Double-click to edit comment",
+      "id": "SyEIgb3B2",
+      "position": {
+        "units": "slots",
+        "x": 18,
+        "y": 3
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 4
+      }
+    },
+    {
+      "content": "Double-click to edit comment",
+      "id": "BJ9Igb3S3",
+      "position": {
+        "units": "slots",
+        "x": 14,
+        "y": 4
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 4
+      }
+    },
+    {
+      "content": "Double-click to edit comment",
+      "id": "B1CLgb2Bn",
+      "position": {
+        "units": "slots",
+        "x": 11,
+        "y": 5
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 4
+      }
+    },
+    {
+      "content": "Double-click to edit comment",
+      "id": "HJzwe-2Hh",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 6
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 4
+      }
+    }
+  ],
+  "description": "Demonstration of sending data using the Cayenne Low Power Payload (https://docs.mydevices.com/docs/lorawan/cayenne-lpp).",
   "links": [
     {
       "id": "H1za-3Gu9",
@@ -258,7 +345,7 @@
       "position": {
         "units": "slots",
         "x": 10,
-        "y": 2
+        "y": 1
       },
       "type": "wayland/cayenne-lpp/lpp"
     },
