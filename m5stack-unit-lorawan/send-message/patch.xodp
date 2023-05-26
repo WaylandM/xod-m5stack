@@ -1,4 +1,5 @@
 {
+  "description": "Send message. For most applications it will be more convenient to send a formatted using, for example,  low power payload (LPP). See: send-lpp node and https://xod.io/libs/wayland/cayenne-lpp/",
   "nodes": [
     {
       "id": "rJmnmZhUc",

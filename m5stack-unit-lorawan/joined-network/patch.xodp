@@ -1,4 +1,5 @@
 {
+  "description": "Check if device has joined network.",
   "nodes": [
     {
       "id": "HyBujr-d5",

@@ -1,4 +1,5 @@
 {
+  "description": "Send command to LoRaWAN module. Command reference: https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/lorawan/ASR650X%20AT%20Command%20Introduction-20190605.pdf",
   "nodes": [
     {
       "id": "B1fQ7S4r5",

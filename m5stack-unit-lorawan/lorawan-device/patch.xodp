@@ -1,4 +1,5 @@
 {
+  "description": "Create an M5Stack LoRaWAN868 device.",
   "nodes": [
     {
       "id": "HykrdNNHq",

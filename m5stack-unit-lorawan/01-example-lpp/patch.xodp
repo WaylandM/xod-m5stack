@@ -1,21 +1,21 @@
 {
   "comments": [
     {
-      "content": "Double-click to edit comment",
+      "content": "*Set maximum size of payload*. The data for each sensor are prefixed by two bytes:\n* *Data Channel*: Uniquely identifies each sensor in the device across frames\n* *Data Type*: Identifies the data type in the frame, eg. “temperature”.\n\nTwo bytes are required for each of our measurements (temperature and barometric pressure), making a total payload size of eight bytes.\n\nFor information on the size of other datatypes, please see: https://docs.mydevices.com/docs/lorawan/cayenne-lpp",
       "id": "HJ4HxZ3Bh",
       "position": {
         "units": "slots",
-        "x": 11,
-        "y": 1
+        "x": 10,
+        "y": -1
       },
       "size": {
-        "height": 1,
+        "height": 3,
         "units": "slots",
-        "width": 4
+        "width": 9
       }
     },
     {
-      "content": "Double-click to edit comment",
+      "content": "Sets interval between measurements. For testing this has been set to just 30 seconds. In normal use the interval would be much larger (many minutes to hours).",
       "id": "rJiBlZ3r3",
       "position": {
         "units": "slots",
@@ -25,11 +25,11 @@
       "size": {
         "height": 1,
         "units": "slots",
-        "width": 4
+        "width": 10
       }
     },
     {
-      "content": "Double-click to edit comment",
+      "content": "Convert measurement from pascals to hectopascals.",
       "id": "SyEIgb3B2",
       "position": {
         "units": "slots",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "content": "Double-click to edit comment",
+      "content": "*add-temperature* and *add-barometric-pressure* build up the payload. Each measurement must be assigned its own channel.",
       "id": "BJ9Igb3S3",
       "position": {
         "units": "slots",
@@ -53,11 +53,11 @@
       "size": {
         "height": 1,
         "units": "slots",
-        "width": 4
+        "width": 8
       }
     },
     {
-      "content": "Double-click to edit comment",
+      "content": "*CFM* (confirmation of uplink) set to *True* here for testing. However, in normal use, confirmation of uplinks should be avoided: https://www.thethingsnetwork.org/docs/lorawan/limitations/#sending-responses-from-your-application-to-your-node-downlink",
       "id": "B1CLgb2Bn",
       "position": {
         "units": "slots",
@@ -67,11 +67,11 @@
       "size": {
         "height": 1,
         "units": "slots",
-        "width": 4
+        "width": 17
       }
     },
     {
-      "content": "Double-click to edit comment",
+      "content": "Empty the payload buffer so that it is ready for new measurements.",
       "id": "HJzwe-2Hh",
       "position": {
         "units": "slots",
@@ -81,7 +81,7 @@
       "size": {
         "height": 1,
         "units": "slots",
-        "width": 4
+        "width": 5
       }
     }
   ],
@@ -278,10 +278,10 @@
   "nodes": [
     {
       "boundLiterals": {
-        "B1burwfd9": "\"70B3D57ED005DF06\"",
+        "B1burwfd9": "\"\"",
         "S1O2JmtS2": "\"0\"",
         "Syt_BDGOq": "\"0000000000000000\"",
-        "rkDet_HPfu5": "\"0ED623F8FA6BBC536DE9235DCDBAC578\"",
+        "rkDet_HPfu5": "\"\"",
         "ryMnJ7YHn": "\"2\""
       },
       "id": "HJXBtPMd5",
@@ -344,8 +344,8 @@
       "id": "BJ9R-2fd5",
       "position": {
         "units": "slots",
-        "x": 10,
-        "y": 1
+        "x": 9,
+        "y": 0
       },
       "type": "wayland/cayenne-lpp/lpp"
     },
@@ -354,8 +354,8 @@
       "label": "LPP",
       "position": {
         "units": "slots",
-        "x": 9,
-        "y": 3
+        "x": 8,
+        "y": 1
       },
       "type": "xod/patch-nodes/to-bus"
     },

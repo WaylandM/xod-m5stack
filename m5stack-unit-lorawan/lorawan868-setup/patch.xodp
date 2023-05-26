@@ -1,4 +1,5 @@
 {
+  "description": "Setup M5Stack LoRaWAN868 device.",
   "links": [
     {
       "id": "SJ4eqzkDz_9",
