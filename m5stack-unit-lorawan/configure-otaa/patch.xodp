@@ -61,9 +61,9 @@
       "boundLiterals": {
         "__out__": "\"\""
       },
-      "description": "Application EUI.",
+      "description": "Join EUI (formerly called Application EUI).",
       "id": "BytWkc4B9",
-      "label": "A_EUI",
+      "label": "J_EUI",
       "position": {
         "units": "slots",
         "x": 2,

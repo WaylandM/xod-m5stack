@@ -9,7 +9,7 @@ node {
 
         auto LoRaWAN = getValue<input_DEV>(ctx);
         auto xDevEUI = getValue<input_D_EUI>(ctx);
-        auto xAppEUI = getValue<input_A_EUI>(ctx);
+        auto xAppEUI = getValue<input_J_EUI>(ctx);
         auto xAppKey = getValue<input_A_Key>(ctx);
         auto xMode = getValue<input_Mode>(ctx);
 

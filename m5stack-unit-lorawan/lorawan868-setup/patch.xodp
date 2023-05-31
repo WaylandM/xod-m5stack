@@ -837,9 +837,9 @@
       "type": "xod/patch-nodes/input-string"
     },
     {
-      "description": "Application EUI.",
+      "description": "Join EUI (formerly called Application EUI).",
       "id": "Syt_BDGOq",
-      "label": "A_EUI",
+      "label": "J_EUI",
       "position": {
         "units": "slots",
         "x": 6,
@@ -881,7 +881,7 @@
     },
     {
       "id": "rkONIPMOc",
-      "label": "A_EUI",
+      "label": "J_EUI",
       "position": {
         "units": "slots",
         "x": 6,
@@ -911,7 +911,7 @@
     },
     {
       "id": "SksxwPMd5",
-      "label": "A_EUI",
+      "label": "J_EUI",
       "position": {
         "units": "slots",
         "x": 3,
